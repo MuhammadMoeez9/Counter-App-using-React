@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap");
+body {
+  background-color: rgb(23, 130, 173);
+}
+.card-container {
+  background-color: rgb(32, 32, 214);
+  color: white;
+  width: 50vw;
+  text-align: center;
+  margin-left: 19vw;
+}
+.card {
+  background-color: rgb(32, 32, 214);
+  border-radius: 25px;
+}
+h2 {
+  height: 70px;
+  width: 150px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 40%;
+  border-radius: 10px;
+}
+
+h1 {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 500px) {
+  h2 {
+    left: 15%;
+  }
+  h1 {
+    font-size: 1em;
+  }
+}
